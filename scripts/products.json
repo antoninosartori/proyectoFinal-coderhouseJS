@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,   
+        "name": "Cama",
+        "category": "Muebles",
+        "price": 800,
+        "image": "https://www.espacity.com/w/wp-content/uploads/01347001000028_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ropero",
+        "category": "Muebles",
+        "price": 600,
+        "image": "https://www.apapachos.com.ar/wp-content/uploads/2022/07/171-0046-1-Ropero-4P2C-Caoba-Fortaleza_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mesa",
+        "category": "Muebles",
+        "price": 450,
+        "image": "https://sodimacar.scene7.com/is/image/SodimacArgentina/253472X"
+    },
+    {
+        "id": 4,
+        "name": "Silla",
+        "category": "Muebles",
+        "price": 230,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_856458-MLA49401669709_032022-O.webp"
+    }
+]

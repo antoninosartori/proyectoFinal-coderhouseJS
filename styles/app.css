@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* estilos en linea */
+.mb-1{
+    margin-bottom: 10px;
+}
+.mb-5{
+    margin-bottom: 50px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.formLogin, .formSingUp {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.formSingUp{
+    position: relative;
+}
+
+.formTitle{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.inputEmail, .inputPassword, .inputEmail-singUp, .inputPassword-singUp, .inputPasswordRepeat-singUp{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.btn-Login, .btn-singUp{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.link-SingUp{
+    color: #6fb5e7;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.backArrow::after{
+    font-family: 'Montserrat', sans-serif;
+    content: '<';
+    font-size: 30px;
+    font-weight: 900;
+    color:#fff;
+    background-color: #000;
+    padding: 8px 16px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* home */
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: #6fb5e7;
+}
+nav{
+    margin: 0 auto;
+    max-width: 992px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #fff;
+    
+    text-transform: uppercase;
+}
+
+.rightNav{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnCart{
+    cursor: pointer;
+}
+
+nav button{
+    border: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color:#6fb5e7;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.productsContainer article{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 5px solid #6fb5e7;
+}
+.productsContainer article:hover{
+    cursor: pointer;
+}
+
+.productsContainer h3{
+    text-align: center;
+}
+.productsContainer h4{
+    margin-right: 30px;
+    text-align: right;
+}
+
+.productsContainer article img{
+    object-fit: contain;
+    height: 300px;
+    width: 250px;
+}
+
+.cartContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #6fb5e7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: -80px;
+    top: 100px;
+    z-index: 1;
+}
+
+.cartContainer article{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    padding-left: 20px;
+}
+
+.cartContainer article img{
+    height: 100px;
+    object-fit: cover;
+}
+
+.deleteProduct{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    cursor: pointer;
+}
+
+.deleteProduct:hover{
+    color: rgba(227, 36, 23, 0.933);
+}
+
+.inactive{
+    display: none;
+}
+

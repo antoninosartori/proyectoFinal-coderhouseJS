@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/app.css">
+    <title>Proyecto Final | Coderhouse</title>
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <h1 class="title mb-5">Bienvenido a Tienda Virtual</h1>
+            <form class="formLogin" action="./pages/home.html">
+
+                <h2 class="formTitle">Inicia Sesion</h2>
+                <input class="inputEmail" type="email" placeholder="email" required>
+                <input class="inputPassword" type="password" placeholder="contraseña" required>
+
+                <button class="btn-Login" type="submit">Ingresar</button>
+
+                <a class="link-SingUp">¿No tienes cuenta? ¡Crea una!</a>
+            </form>
+
+            <form class="formSingUp inactive" action="">
+
+                <h2 class="formTitle">Vamos a crear tu cuenta</h2>
+                <input class="inputEmail-singUp" type="email" placeholder="email" required>
+                <input class="inputPassword-singUp" type="password" placeholder="contraseña" required>
+                <input class="inputPasswordRepeat-singUp" type="password" placeholder="repite tu contraseña" required>
+
+                <button class="btn-singUp" type="submit">Crear cuenta</button>
+
+                <span class="backArrow"></span>
+            </form>
+        </div>
+    </main>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./scripts/nodos.js"></script>
+    <script src="./scripts/formulario.js"></script>
+</body>
+</html>
